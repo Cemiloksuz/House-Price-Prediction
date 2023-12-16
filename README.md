@@ -15,37 +15,40 @@ Columns
 You can use this link to examine the data. https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview/evaluation
 
 Flow
-The data was uploaded and examined.
 
-Columns are categorical and numerical. Both hierarchical and non-hierarchical columns were recognized for encoding.
+•	The data was uploaded and examined.
 
-Analyses included categorical and numerical variables.
+•	Columns are categorical and numerical. Both hierarchical and non-hierarchical columns were recognized for encoding.
 
-Target variable-based categorical variables were evaluated.
+•	Analyses included categorical and numerical variables.
 
-We analyzed outliers. Suppressing outliers created upper and lower bounds.
+•	Target variable-based categorical variables were evaluated.
 
-Missing column values were recorded. According to missing value rate, several solutions were used.
+•	We analyzed outliers. Suppressing outliers created upper and lower bounds.
 
-Hierarchical categorical columns were encoded.
+•	Missing column values were recorded. According to missing value rate, several solutions were used.
 
-Rare value analysis merged underrepresented categorical variables.
+•	Hierarchical categorical columns were encoded.
 
-Additional columns were created using feature engineering.
+•	Rare value analysis merged underrepresented categorical variables.
 
-Label endocing was used on binary variables.
+•	Additional columns were created using feature engineering.
 
-Non-hierarchical and multi-class categorical variables were one-hot encoded.
+•	Label endocing was used on binary variables.
 
-Numerical variables were standardized. Logarithmic transformation was applied to the target variable.
+•	Non-hierarchical and multi-class categorical variables were one-hot encoded.
 
-Test and train data were separated at research start.
+•	Numerical variables were standardized. Logarithmic transformation was applied to the target variable.
 
-Over train data, dependent and independent variables were constructed.
+•	Test and train data were separated at research start.
 
-Model selection algorithms were used to build models.
+•	Over train data, dependent and independent variables were constructed.
 
-The model was created and hyperparameter optimized using Light GBM.
+•	Model selection algorithms were used to build models.
 
-We examined feature significance.
-Finally, prediction data was created.
+•	The model was created and hyperparameter optimized using Light GBM.
+
+•	We examined feature significance.
+
+•	Finally, prediction data was created.
+
